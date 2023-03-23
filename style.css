@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: bisque;
+}
+
+fieldset {
+  border-radius: 10px;
+  background-color: rgb(223, 237, 237);
+}
+
+input {
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+button {
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: brown;
+  font-weight: 700;
+}

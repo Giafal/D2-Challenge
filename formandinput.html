@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form and input fields</title>
+</head>
+<body>
+    <h1>Benvenuto su Music Radar</h1>
+    <fieldset>
+        <legend>Compila il form</legend>
+       <form onsubmit="alert('Registrazione inviata')">
+     <div>
+        <label>Nome</label>
+        <input type="text" placeholder="Il tuo nome" />
+     </div>
+       <br>
+     <div>
+        <label>Cognome</label>
+        <input type="text" placeholder="Il tuo cognome"/>
+    </div>
+    <br>
+    <div>
+        <label>Email</label>
+        <input type="email" placeholder="Il tuo indirizzo email" />
+    </div>
+    <br>
+    <div>
+        <label>Password</label>
+        <input type="password" placeholder="La tua password" />
+    </div>
+    <br>
+    <div>
+        <label>Data di nascita</label>
+        <input type="date"/> 
+    </div>
+    <br>
+    <div>
+        <label>Telefono</label>
+        <input type="number" placeholder="Il tuo numero di telefono" />
+    </div>
+    <br>
+    <span>I tuoi gusti</span>
+    <br>
+    <br>
+    <!-- <div>
+        <input type="checkbox"/> <span>Reggae</span>
+        </div>
+        <div>
+        <input type="checkbox"/> <span>Indie</span>
+        </div>
+        <div>
+        <input type="checkbox"/> <span>Rock</span>
+    </div> -->
+    <ul style="list-style-type: none;">
+        <li> <input type="checkbox"/>Reggae</li>
+        <li><input type="checkbox"/>Indie</li>
+        <li><input type="checkbox"/>Rock</li>
+        <li><input type="checkbox"/>Chill</li>
+        <li><input type="checkbox"/>Classic</li>
+        <li><input type="checkbox"/>Afro</li>
+        <li><input type="checkbox"/>Hip Hop</li>
+    </ul>
+    <br>
+    <div>
+        <input type="radio"/> <span>Accetto i termini e le condizioni</span>
+    </div>
+    <br>
+    <button type="submit">INVIA REGISTRAZIONE</button>
+    <br>
+</fieldset>
+    </form>
+</body>
+</html>
